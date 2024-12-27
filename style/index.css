@@ -1,4 +1,49 @@
-body{
-    background: #450084;
+:root {
+    --jmu: #450084;
+    --jmuGold: #CBB677;
+    --jmuMediumPurple:#B599CE;
+    --jmuLightPurple:#DACCE6;
+    --jmuDarkGold:#AD9C65;
+    --jmuLightGold:#F4EFE1;
+    --jmuSlateGrey:#333333;
+    --jmuDarkGray:#595959;
+    --jmuMediumGray:#B2B2B2;
+    --jmuLightGrey:#D6D6D6;
+}
+body {
+    background: var(--jmuLightGrey);
     margin: 0;
+    height:200px;
+    width: 100vw;
+    height: 100vh;
+
+}
+.header {
+    padding:10px;
+    width: 100%;
+    font-family: 'Courier New', monospace;
+    background-color: var(--jmu);
+    color: var(--jmuGold);
+}
+.jmuImage {
+    width: 80%;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+.sites {
+    background-color: var(--jmuDarkGray);
+    height: 30px;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "B1 B2 B3";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sites > div {
+    background-color: var(--jmuGold);
+    margin:1px;
+    text-align: center;
+    border: 1px;
 }
