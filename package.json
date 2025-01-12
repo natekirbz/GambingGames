@@ -1,0 +1,33 @@
+{
+  "name": "gamblinggames",
+  "version": "1.0.0",
+  "description": "College project for gambling class",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natekirbz/GamblingGames.git"
+  },
+  "author": "Nathan Kirby, Shea Parcell, Sam George, Tenley Kennet, Ardit Lumi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natekirbz/GamblingGames/issues"
+  },
+  "homepage": "https://github.com/natekirbz/GamblingGames#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "ejs": "^3.1.10",
+    "expess": "^0.0.1-security",
+    "express": "^4.21.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "nodemon": "^3.1.9"
+  }
+}
